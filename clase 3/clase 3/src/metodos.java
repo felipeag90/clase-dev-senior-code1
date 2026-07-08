@@ -5,7 +5,7 @@ public class metodos {
         System.out.println("La propina es: " + propina);
     }
 
-    public static double calcularPropina(double subtotal, double porcentaje) {
+    static double calcularPropina(double subtotal, double porcentaje) {
         return subtotal * porcentaje;
     }
 }
